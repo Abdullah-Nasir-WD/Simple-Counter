@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+      body{
+        background-color: #000000;
+        color: #ffffff;
+        }
+        .h1{
+            background: #8b0000;
+            color: #000000;
+            text-align: center;
+            font-size: 2.8rem;
+
+        } 
+        #head{
+            text-align: center;
+            font-size: 6rem;
+            
+        }
+        .btn{
+            align-items: center;
+            font-size: 2.5rem;
+            color: #000000;
+            background-color: #8b0000;
+            border: none;
+            border-radius: 25px;
+            padding: 10px;
+            text-align: center;
+            letter-spacing: 1px;
+         }
+         .d-flex{
+            display: flex;
+            justify-content: space-evenly;
+         }
+        
+       
+    </style>
+</head>
+<body>
+
+    <h1 class="h1">Simple Counter</h1>
+    <h1 id="head">0</h1>
+    <div class="d-flex">
+        <button class="btn decrease" onclick="decrease()">-</button>
+        <button class="btn reset" onclick="reset()">Reset</button>
+        <button class="btn increase" onclick="increase()">+</button>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
